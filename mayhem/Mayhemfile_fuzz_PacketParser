@@ -1,0 +1,5 @@
+project: savantenvs/nmap
+target: fuzz_PacketParser
+cmds:
+  - cmd: /mayhem/fuzz_PacketParser
+    libfuzzer: true

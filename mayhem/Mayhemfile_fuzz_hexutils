@@ -1,0 +1,5 @@
+project: savantenvs/nmap
+target: fuzz_hexutils
+cmds:
+  - cmd: /mayhem/fuzz_hexutils
+    libfuzzer: true
