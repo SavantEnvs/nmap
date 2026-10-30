@@ -1,0 +1,16 @@
+# Prune untracked build outputs and local scratch from the build context. .git is kept on purpose:
+# the Dockerfile COPYs the context into /mayhem and the image must carry the full git history.
+**/*.o
+**/*.a
+**/*.lo
+**/*.la
+**/*.so
+**/*.so.*
+**/*.gcda
+**/*.gcno
+**/.deps
+**/.libs
+**/autom4te.cache
+**/*.swp
+**/*~
+ctrf-report.json

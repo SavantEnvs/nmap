@@ -1,0 +1,5 @@
+project: savantenvs/nmap
+target: fuzz_dns_packet_parseFromBuffer
+cmds:
+  - cmd: /mayhem/fuzz_dns_packet_parseFromBuffer
+    libfuzzer: true

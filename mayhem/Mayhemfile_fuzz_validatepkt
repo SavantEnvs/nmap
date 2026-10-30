@@ -1,0 +1,5 @@
+project: savantenvs/nmap
+target: fuzz_validatepkt
+cmds:
+  - cmd: /mayhem/fuzz_validatepkt
+    libfuzzer: true
